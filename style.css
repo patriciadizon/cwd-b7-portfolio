@@ -1,0 +1,46 @@
+header.bible {
+    background: url(images/bible.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body {
+    font-family: 'Berkshire Swash', cursive;
+}
+h1, h2 {
+    text-shadow: 1px 1px 2px black;
+}
+main {
+    background: url(images/bible2.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.card {
+    background: rgba(220, 208, 245, 0.5);
+}
+footer {
+    background-color:white;    
+}
+
+footer .cn {
+	font-size: 20px;
+    color: #ffc60b;
+	text-shadow: 1px 1px 3px #000
+}
+footer .footerlist {
+    padding-left: 43%;
+}
+.footerlist li {
+	float:left;
+	border-right: 2px solid #283593;
+}
+.footerlist a {
+	padding:5px 10px;
+}   
+.footerlist li:last-child {
+	border-right-style:none;
+}
+

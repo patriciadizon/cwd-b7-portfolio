@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cabin&display=swap" rel="stylesheet">    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="icon" type="image/png" href="images/bible1.png">
+    <title> Home | Proverbs4u </title>
+  
+</head>
+<body>
+<header class="bible">
+ <div class="navbar">  
+  <nav class="white" style="font-family: 'Berkshire Swash', cursive;">
+   <div class="container"> 
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo"><img src="images/book.png" alt="proverbs for you" title="proverbs4u" style="width: 80px; height: 70px;"></a> 
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons blue-text text-darken-3">menu</i></a>  
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="active"><a href="#aboutus" class="indigo-text text-darken-4">About Us</a></li>
+          <li><a href="media.html" class="indigo-text text-darken-4">Media Library</a></li>
+          <li><a href="contactus.html" class="indigo-text text-darken-4">Contact Us</a></li>
+      </ul>    
+     </div>
+    </div> 
+   </nav>
+</div>
+<!--sidenav--> 
+  <ul id="slide-out" class="sidenav" style="font-family: 'Berkshire Swash', cursive;">
+      <li><a href="#aboutus" class="indigo-text text-darken-4">About Us</a></li>
+      <div class="divider amber"></div>
+      <li><a href="media.html" class="indigo-text text-darken-4">Media Library</a></li>
+      <div class="divider amber"></div>
+      <li><a href="contactus.html" class="indigo-text text-darken-4">Contact Us</a></li>
+    </ul>
+<!--Showcase--> 
+  <div class="showcase container">
+    <div class="col s12 m10 offset-ml center">
+        <h1><q style="font-size: 40px;" class="amber-text text-accent-3">Nobody ever outgrows the Scripture; the book widens and deepens with our years</q></h1>     
+		<p class="indigo-text text-darken-4 hide-on-med-and-down" style="font-size: 25px; font-weight: 900; font-family: 'Cabin', sans-serif;
+    font-family: 'Cabin', sans-serif;"> - Charles Spurgeon </p>
+    </div>
+  </div>
+</header>
+<div class="container scrollspy" id="aboutus">
+  <div class="row center">
+   <div class="col s12">
+     <ul class="tabs">
+       <li class="tab col s6"><a class="active indigo-text text-darken-4" style="font-size: 18px; font-family: 'Cabin', sans-serif;" href="#mission">Our Mission</a></li>
+       <li class="tab col s6"><a class="active indigo-text text-darken-4" style="font-size: 18px; font-family: 'Cabin', sans-serif;" href="#believe">What We Believe</a></li>
+     </ul>
+   </div>
+ <div id="mission" class="col s12">
+   <h1 style="font-family: 'Cabin', sans-serif; font-size: 40px;" class="active amber-text text-accent-3">Our Mission</h1>
+   <p style="font-size: 30px;" class="indigo-text text-darken-4">To help you understand more about God's Word and develop a deeper 
+    relationship with Jesus.
+   </p>
+ </div>
+ <div id="believe" class="col s12">
+   <h1 style="font-family: 'Cabin', sans-serif; font-size: 40px;" class="active amber-text text-accent-3">What We Believe</h1>
+   <p style="font-size: 30px;" class="indigo-text text-darken-4">That everyone needs the Holy Bible to survive this hostile world
+    and someday live in heaven through Jesus, by Him, and with Him.</p>
+ </div>
+ </div>
+ </div>
+ <main>
+ <div class="container signup">
+  <div class="row center">
+    <div class="col s12 l6 offset-l7">
+      <div class="card">
+     <h1 style="font-size: 30px;" class="indigo-text text-darken-4">Subscribe Today!</h1>
+     <p style="font-size: 20px; font-family: 'Cabin', sans-serif; font-weight: 900;" class="indigo-text text-darken-4">Daily Devotional, Verse of the day, Bible Reading Plan, Monthly Newsletter from Pastor Ed Laurena, and Weekly Acts29 Emails Specials.</p>
+ <!--Modal trigger-->    
+     <a class="waves-effect waves-light btn modal-trigger amber indigo-text text-darken-4" style="text-shadow: 1px 1px 2px white;" href="#signup">Sign Up</a>
+    </div>
+   </div>
+  </div>
+ </div>
+</main>
+<!-- Modal Structure -->
+<div id="signup" class="modal">
+  <div class="modal-content">
+    <h4 class="indigo-text text-darken-4">Email Subscription Form</h4>
+    <form action="">
+      <div class="input-field col s6">
+        <i class="material-icons prefix indigo-text text-darken-4">account_circle</i>
+        <input id="icon_prefix" type="text" class="validate">
+        <label for="icon_prefix">Full Name</label>
+      </div>
+      <div class="input-field col s6">
+        <i class="material-icons prefix indigo-text text-darken-4">email</i>
+        <input id="icon_email" type="tel" class="validate">
+        <label for="icon_email">Email</label>
+      </div>
+    </form>
+    <p style="font-size: 15px; font-family: 'Cabin', sans-serif;" class="indigo-text text-darken-4">By the way, unsubscribing is easy. Just click on the unsubscribe link of any of these emails you receive from us. That's it!
+    </p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-light btn amber indigo-text text-darken-4" style="text-shadow: 1px 1px 2px white;"">Subscribe</a>
+  </div>
+</div>
+<!--footer-->
+<footer class="center">
+   <div class="row">
+    <div col s12>
+      <ul class="footerlist">
+        <li><a class="cn" href="https://www.facebook.com/cbbcspl/" target="_blank"><i class="fa fa-facebook" title="Facebook" alt="facebook"></i></a></li> 
+        <li><a class="cn" href="https://twitter.com/CbbcLaguna" target="_blank"><i class="fa fa-twitter" title="Twitter" alt="twitter"></i></a></li> 
+        <li><a class="cn" href="mailto:info@cbbcphilippines.org" target="_blank"><i class="fa fa-envelope" title="email" alt="email"></i></a></li>  
+        <li><a class="cn" href="tel:028690433" target="_blank"><i class="fa fa-phone" title="phone" alt="phone"> </i></a></li>  
+        <li><a class="cn" href="https://www.youtube.com/@Cbbcphilippines" target="_blank"><i class="fa fa-youtube" title="Youtube" alt="youtube"> </i></a></li>  
+     </ul>
+  </div>
+</div>  
+    <span class="indigo-text text-darken-4">
+    © 2022-Telecall-Dizon
+    </span>
+</footer>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+</script>
+<script>
+$(document).ready(function(){
+//sidenav init
+$('.sidenav').sidenav({
+    edge: 'right'
+})
+//Scrollspy init
+$('.scrollspy').scrollSpy();
+//Tabs init
+$('.tabs').tabs();
+//Modal Init
+$('.modal').modal();
+}); 
+//Input Init
+M.updateTextFields();
+</script>
+</body>
+</html>
